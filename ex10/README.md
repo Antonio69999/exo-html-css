@@ -27,7 +27,7 @@ A partir de la base html/css donnée dans le [dossier 2](https://github.com/simp
 
 Cibler les boîtes et modifier leur comportement en fonction de la résolution.
 
-* 2.1 modifier la composition 1.3 pour étendre la boîte 5 à toute la largeur.
+* 2.1 modifier la composition 1.3 g étendre la boîte 5 à toute la largeur.
 
 ![alt text](https://mescours.ovh/img/casestudy_flexbox_2_1.png)
 
