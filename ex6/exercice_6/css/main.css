@@ -1,0 +1,164 @@
+/*Quelques regles génériques*/
+html, body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+font-family: 'Roboto', sans-serif;
+position: absolute;
+top: 0; left: 0;
+height: 100%;
+margin: 0;
+padding: 0;
+background-color: white;
+}
+
+/*Header*/
+header, h1 {
+    /*height: 40px;*/
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 1800px;
+    transition: background-color 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in;
+}
+
+.list2:hover {
+    color: gray;
+    background-color: grey;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.list {
+  margin-right: 100px;
+  margin-left: 0px;
+  text-align: left;
+}
+
+/*Body*/
+
+article {
+    left: 200px;
+    width: 70%;
+    margin-left: 10px;
+    /*transform: translateX(-100%);
+    transition: transform 0.5s ease-in;*/
+}
+
+h2 {
+    text-transform: uppercase;
+}
+img {
+    width: 30%;
+    left: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+.es:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+h3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/*footer*/
+footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+
+ .partenaires {
+    margin-right: 20px;
+  }
+
+  footer a {
+    color: lightgray;
+    text-decoration: none;
+    /*transition: font-size 0.3s ease-in-out;*/
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: blue;
+  }
+
+  animation
+
+  .shake-on-hover:hover {
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+  }
+
+  /*Media queries*/
+  @media screen and (max-width: 768px) and (orientation:horizontal) {
+    
+    /*Permet d'éviter le scroll horizontal*/
+    html, body {
+      overflow-x: hidden !important;width: 450vw !important; 
+    }
+
+    img {
+      margin-left: 0px;
+      margin-right: 10px;
+      width: 50%;
+      max-width: 600px;
+    }
+    
+    p, h1 {
+      font-size: 1.2em;
+    }
+  }
+
+  @media screen and (max-width: 630px) and (orientaiton:portrait) {
+
+    html, body {
+      overflow-x: hidden !important;width: 250vw !important; 
+    }
+
+    .list {
+      display: none;
+    }
+
+    .list2 {
+      display: none;
+    }
+    
+    .list2:hover {
+      display: none;
+    }
+
+    img {
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+
+/*
+  header, footer {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }
+
+  translate() = déplacer un élément dans l'espace en spécifiant des translations en termes de coordonnées X et Y
+  Syntaxe : translate(tx, ty)
+  */
