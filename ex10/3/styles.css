@@ -43,3 +43,8 @@ section div:last-child {
   height: 100%;
 }
 
+section div {
+  width: calc(33% - 20px);  /* Permet d'opérer des calculs*/
+  height: calc(25% - 20px);
+}
+
