@@ -17,11 +17,10 @@ nav a { border-bottom: 1px solid rgba(255,255,255,.3); color: white; display: bl
    �diter � partir d'ici
  * ==================================== */
 
-@media screen (min-width: 600px){
+@media screen (min-width: 600px) {
 body {
   width: 200px;
-}
-
+    }
 }
 
  main {
