@@ -8,7 +8,46 @@ aside { background-color: #e67e22; }
 footer { background-color: #e74c3c; }
 
 /* Editer a partir d'ici */
- 
+
+/* grid-column-start indique la ligne verticale de départ de l'élément ;
+
+grid-column-end indique la ligne verticale d'arrivée de l'élément ;
+
+grid-row-start indique la ligne horizontale de départ de l'élément ;
+
+grid-row-end indique la ligne horizontale d'arrivée de l'élément   */
+
+
 .container {
 	display: grid;
+	grid-template-columns: 2fr 3fr 2fr; /* nombre de colonnes et largeur de chacunes */
+	grid-template-rows: 50px 100px 50px; /* nombre de rangée et la hauteur de chacunes */
 }
+
+header {
+	grid-column: 1 / 4;
+	grid-row:  1 / 2;
+}
+
+footer {
+	grid-column: 1 / 4;
+}
+
+nav {
+	grid-column: 1 / 2;
+	grid-row: 2 / 4 ;
+}
+
+section {
+	grid-column: 2 / 3;
+	grid-row: 2 / 4 ;
+}
+
+aside {
+	grid-column: 3 / 4;
+	grid-row: 2 / 4;
+}
+
+
+
+  
