@@ -62,7 +62,7 @@ Créer un menu responsive et en changer l'orientation.
 ![alt text](https://mescours.ovh/img/casestudy_flexbox_5_2.png)
 
 * 4.3 au survol, étirer le <li>.
-
+ 
 ![alt text](https://mescours.ovh/img/casestudy_flexbox_5_3.png)
 
 5. base de template responsive
