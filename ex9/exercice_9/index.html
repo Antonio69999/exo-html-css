@@ -1,80 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial_scale=1.0, user-scalable=no">
-        <!--Métadonnées-->
 
-        <title>Tech News</title>
-        <meta name="description" content="Site d'actualité sur les sciences et la tech">
-        <meta name="keywords" content="actualité, sciences, tech">
-        <link rel="stylesheet" href="css/main.css">
-    
-        <!--Facebook Open Graph data-->
-        
-        <meta property="og:url" content="url_du_site"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Tech'News"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:description" content="Site d'actualité sur les sciences et la tech"/>
-        <meta property="og:image" content="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.simplilearn.com%2Fice9%2Ffree_resources_article_thumb%2FWhat_is_the_Importance_of_Technology.jpg&tbnid=fN7LQJzxRTtvVM&vet=12ahUKEwj3x-GW76v_AhUQmScCHRP3A7QQMygAegUIARDCAQ..i&imgrefurl=https%3A%2F%2Fwww.simplilearn.com%2Fimportance-of-technology-article&docid=aeVLkG3bGgRUqM&w=848&h=477&itg=1&q=technology&client=firefox-b-d&ved=2ahUKEwj3x-GW76v_AhUQmScCHRP3A7QQMygAegUIARDCAQ"/>
-        
-        <!--Twitter Card data-->
-        <meta name="twitter:card" content="">
-        <meta name="twitter:user" content="@"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial_scale=1.0, user-scalable=no">
+    <!--Métadonnées-->
 
-    </head>
-    <body>
-        <!-- 1.Création d'une menu-->
+    <title>Tech News</title>
+    <meta name="description" content="Site d'actualité sur les sciences et la tech">
+    <meta name="keywords" content="actualité, sciences, tech">
+    <link rel="stylesheet" href="css/main.css">
 
-        <header>
-            <h1>Tech'News</h1>
-                <ul class="list">
-                    <li div class="list2"><a href="index.html">Acceuil</a></li>
-                    <li div class="list2"><a href="#ancrage_tech">Tech</a></li>
-                    <li div class="list2"><a href="#ancrage_science">Science</a></li>
-                </ul>
-        </header>
-        <article itemscope itemtype="https://schema.org/Article">
+    <!--Facebook Open Graph data-->
+
+    <meta property="og:url" content="url_du_site" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tech'News" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Site d'actualité sur les sciences et la tech" />
+    <meta property="og:image"
+        content="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.simplilearn.com%2Fice9%2Ffree_resources_article_thumb%2FWhat_is_the_Importance_of_Technology.jpg&tbnid=fN7LQJzxRTtvVM&vet=12ahUKEwj3x-GW76v_AhUQmScCHRP3A7QQMygAegUIARDCAQ..i&imgrefurl=https%3A%2F%2Fwww.simplilearn.com%2Fimportance-of-technology-article&docid=aeVLkG3bGgRUqM&w=848&h=477&itg=1&q=technology&client=firefox-b-d&ved=2ahUKEwj3x-GW76v_AhUQmScCHRP3A7QQMygAegUIARDCAQ" />
+
+    <!--Twitter Card data-->
+    <meta name="twitter:card" content="">
+    <meta name="twitter:user" content="@" />
+
+</head>
+
+<body>
+    <!-- 1.Création d'une menu-->
+
+    <header>
+        <h1>Tech'News</h1>
+        <ul class="list">
+            <li div class="list2"><a href="index.html">Acceuil</a></li>
+            <li div class="list2"><a href="#ancrage_tech">Tech</a></li>
+            <li div class="list2"><a href="#ancrage_science">Science</a></li>
+        </ul>
+    </header>
+    <article itemscope itemtype="https://schema.org/Article">
         <!--2. Vos article-->
 
-            <a href="article1.html">
-                <img itemscope itemtype="https://schema.org/image" src="images/tech.jpg" alt="tech_news" width="350" height="350">
-            </a><br>
-            <h3>Bouygues</h3>
-            <p itemscope itemtype="https://schema.org/Text">Bouygues Telecom affirme couvrir 95 % de la population en 4G.<br> 
+        <a href="article1.html">
+            <img itemscope itemtype="https://schema.org/image" src="images/tech.jpg" alt="tech_news" width="350"
+                height="350">
+        </a><br>
+        <h3>Bouygues</h3>
+        <aside>
+        <p itemscope itemtype="https://schema.org/Text">Bouygues Telecom affirme couvrir 95 % de la population en
+            4G.<br>
             L'opérateur Bouygues Telecom annonce que son réseau permet désormais de couvrir 95 %<br>
-            de la population en très haut débit mobile, 
+            de la population en très haut débit mobile,
             la 4G. Mais sur la couverture du territoire, il reste muet...</p>
-            <a class="shake-on-hover" href="articles/tech/article1.html">En savoir plus</a>
-        </article>
-        <div id="ancrage_science">
+        <aside>
+        <a class="shake-on-hover" href="articles/tech/article1.html">En savoir plus</a>
+    </article>
+    <div id="ancrage_science">
         <h2 itemscope itemtype="https://schema.org/title">Liens vers les articles de sciences :</h2>
         <a href="articles/science/article1.html">SpaceX</a><br>
         <a href="articles/science/article2.html">Singe Cloné</a><br>
         <a href="articles/science/article3.html">Facebook</a><br>
-        </div>
-        <div id="ancrage_tech">
+    </div>
+    <div id="ancrage_tech">
         <h2 itemscope itemtype="https://schema.org/title">Liens vers les articles de tech :</h2>
         <a href="articles/tech/article1.html">Bouygues</a><br>
         <a href="articles/tech/article2.html">Militaires</a>
-        </div>
-        <!-- 3.Pied de page-->
+    </div>
+    <!-- 3.Pied de page-->
 
-        <footer>
-            <h3>Sites partenaires</h3>
-            <ul class="partenaires">
-                <li><a href="#" rel="nofollow">Partenaire A</a></li>
-                <li><a href="#" rel="nofollow">Partenaire B</a></li>
-                <li><a href="#" rel="nofollow">Partenaire C</a></li>
-            </ul>
+    <footer>
+        <h3>Sites partenaires</h3>
+        <ul class="partenaires">
+            <li><a href="#" rel="nofollow">Partenaire A</a></li>
+            <li><a href="#" rel="nofollow">Partenaire B</a></li>
+            <li><a href="#" rel="nofollow">Partenaire C</a></li>
+        </ul>
 
-            <h3>A propos</h3>
-                        <ul>
-                            <li><a href="#">mail</a></li>
-                            <li><a href="#">contact</a></li>
-                            <li><a href="#">téléphone</a></li>
-                        </ul>
-        </footer>
-    </body>
+        <h3>A propos</h3>
+        <ul>
+            <li><a href="#">mail</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">téléphone</a></li>
+        </ul>
+    </footer>
+</body>
+
 </html>
