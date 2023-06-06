@@ -38,9 +38,6 @@ ul li a {
   }
 }
 
-
-li:hover {
+li:hover, a:hover {
   width: 200%;
 }
-
-
