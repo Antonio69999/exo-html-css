@@ -20,7 +20,7 @@ grid-row-end indique la ligne horizontale d'arrivée de l'élément   */
 
 .container {
 	display: grid;
-	grid-template-columns: 2fr 3fr 2fr; /* nombre de colonnes et largeur de chacunes */
+	grid-template-columns: 2fr 9fr 2fr; /* nombre de colonnes et largeur de chacunes */
 	grid-template-rows: 50px 100px 50px; /* nombre de rangée et la hauteur de chacunes */
 }
 
@@ -36,6 +36,7 @@ footer {
 nav {
 	grid-column: 1 / 2;
 	grid-row: 2 / 4 ;
+	align-self: start;
 }
 
 section {
@@ -46,6 +47,7 @@ section {
 aside {
 	grid-column: 3 / 4;
 	grid-row: 2 / 4;
+	align-self: start;
 }
 
 /* 4 */
